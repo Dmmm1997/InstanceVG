@@ -1,0 +1,82 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "train.py",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/tools/train.py",
+      "console": "integratedTerminal",
+      "justMyCode": true,
+      "env": {
+        "CUDA_VISIBLE_DEVICES": "0"
+      },
+      "args": [
+        "configs/gres/InstanceVG-grefcoco.py",
+        "--work-dir",
+        "work_dir/debug/test",
+        "--debug",
+        "True",
+        // "--load-from", "work_dir/beit3_multibranch/(3-9)decodergt#0decoderpredict#0tokengt_30ep_noweight/20240310_095533/det_best.pth"
+      ]
+    },
+    {
+      "name": "test.py",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/tools/test.py",
+      "console": "integratedTerminal",
+      "justMyCode": true,
+      "args": [
+        "work_dir/gres/sota/gres/320/20240904_235702/20240904_235702_320.py",
+        "--load-from",
+        "work_dir/gres/sota/gres/320/20240904_235702/latest.pth"
+      ]
+    },
+    {
+      "name": "inference.py",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/tools/inference.py",
+      "console": "integratedTerminal",
+      "justMyCode": true,
+      "args": [
+        // "--output-dir",
+        // "visualization/inference"
+      ]
+    },
+    {
+      "name": "this",
+      "type": "python",
+      "request": "launch",
+      "program": "${file}",
+      "console": "integratedTerminal",
+      "justMyCode": false,
+      "args": []
+    },
+    {
+      "name": "gradcam",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/tools/misc/vis_cam.py",
+      "console": "integratedTerminal",
+      "justMyCode": false
+    },
+    {
+      "name": "gradcam_2",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/tools/misc/heatmap.py",
+      "console": "integratedTerminal",
+      "justMyCode": true
+    },
+    {
+      "name": "demo",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/tools/demo.py",
+      "console": "integratedTerminal",
+      "justMyCode": true
+    }
+  ]
+}
