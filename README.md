@@ -2,7 +2,7 @@
 
 ## Updates
 
-- **2025.10.05: The codes and models are released.**
+- **2025.10.09: The codes and models are released.**
 - **2025.09.05: Our work has been accepted by TPAMI 2025.**
 
 ## Abstract
@@ -125,7 +125,7 @@ bash tools/dist_test.sh [PATH_TO_CONFIG] [GPU_NUMBER] --load-from [PATH_TO_CHECK
 
 ### Models ZOO
 
-We release the checkpoint and dataset annotation in the huggingface. [CHECKPOINTS](https://huggingface.co/Dmmm997/InstanceVG), [DATASET](https://huggingface.co/datasets/Dmmm997/InstanceVG-Data)
+We release the checkpoint and dataset annotation in the huggingface. [CHECKPOINTS](https://huggingface.co/Dmmm997/InstanceVG), [DATASET](https://huggingface.co/datasets/Dmmm997/InstanceVG_Data)
 
 | Train Set | Checkpoint|
 | --------- | --------- |
@@ -162,9 +162,6 @@ bash tools/dist_test.sh  configs/rrefcoco/InstanceVG-rrefcoco.py  1 --load-from 
 ```
 
 
-### Acknowledge
-This repository partially builds upon the codebases of [SimVG](https://github.com/Dmmm1997/SimVG/), [BEiT-3](https://github.com/microsoft/unilm/tree/master/beit3) and [SeqTR](https://github.com/seanzhuh/SeqTR).
-
 ## Citation
 ```
 @ARTICLE{instancevg,
@@ -173,4 +170,24 @@ This repository partially builds upon the codebases of [SimVG](https://github.co
   title={Improving Generalized Visual Grounding with Instance-aware Joint Learning}, 
   year={2025},
   doi={10.1109/TPAMI.2025.3607387}}
+
+@article{dai2024simvg,
+  title={Simvg: A simple framework for visual grounding with decoupled multi-modal fusion},
+  author={Dai, Ming and Yang, Lingfeng and Xu, Yihao and Feng, Zhenhua and Yang, Wankou},
+  journal={Advances in neural information processing systems},
+  volume={37},
+  pages={121670--121698},
+  year={2024}
+}
+
+@inproceedings{dai2025multi,
+  title={Multi-task visual grounding with coarse-to-fine consistency constraints},
+  author={Dai, Ming and Li, Jian and Zhuang, Jiedong and Zhang, Xian and Yang, Wankou},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={39},
+  number={3},
+  pages={2618--2626},
+  year={2025}
+}
+
 ```
