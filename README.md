@@ -1,4 +1,6 @@
-# InstanceVG: Improving Generalized Visual Grounding with Instance-aware Joint Learning
+
+<h2 align="center">InstanceVG: Improving Generalized Visual Grounding with Instance-aware Joint Learning</h2>
+
 
 <p align="center">
   <a href="https://arxiv.org/pdf/2509.13747" target="_blank"><img src="https://img.shields.io/badge/arXiv-2509.13747-b31b1b.svg?logo=arxiv&logoColor=white"></a>
