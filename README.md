@@ -90,7 +90,7 @@ pip install -e .
 
 ## 🧮 Data Preparation
 
-Prepare the **MS-COCO** dataset and download the **referring** and **foreground** annotations from the [Model Zoo](#-model-zoo).
+Prepare the **MS-COCO** dataset and download the **referring** and **foreground** annotations from the [HF-Data](https://huggingface.co/datasets/Dmmm997/InstanceVG_Data).
 
 Expected directory structure:
 
