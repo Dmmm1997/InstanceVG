@@ -29,7 +29,7 @@
 
 ## 📢 News
 
-- **[2025.10.11]** Codes, pretrained models, and datasets are now released! 🎉 .
+- **[2025.10.11]** Codes, models, and datasets are now released! 🎉 .
 
 ---
 
