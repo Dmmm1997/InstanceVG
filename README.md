@@ -12,8 +12,8 @@
   <a href="https://dmmm1997.github.io/">Ming Dai</a><sup>1</sup>,
   <a href="https://scholar.google.com/citations?hl=zh-CN&user=9c_ZcDcAAAAJ">Wenxuan Cheng</a><sup>1</sup>,
   <a href="https://scholar.google.com/citations?hl=zh-CN&user=lpFrrs8AAAAJ">Jiang-Jiang Liu</a><sup>2</sup>,
-  <a href="https://scholar.google.com/citations?user=RLhH0jwAAAAJ&hl=zh-CN">Lingfeng Yang</a><sup>3</sup>,
-  <a href="https://scholar.google.com/citations?user=Y6KtijIAAAAJ&hl=zh-CN">Zhenhua Feng</a><sup>4</sup>,
+  <a href="https://scholar.google.com/citations?user=RLhH0jwAAAAJ&hl=zh-CN">Lingfeng Yang</a><sup>4</sup>,
+  <a href="https://scholar.google.com/citations?user=Y6KtijIAAAAJ&hl=zh-CN">Zhenhua Feng</a><sup>3</sup>,
   <a href="https://automation.seu.edu.cn/ywk/list.htm">Wankou Yang</a><sup>1*</sup>,
   <a href="https://jingdongwang2017.github.io/">Jingdong Wang</a><sup>2</sup>
 </p>
